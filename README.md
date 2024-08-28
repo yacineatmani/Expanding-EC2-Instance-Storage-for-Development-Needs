@@ -19,7 +19,7 @@ Expanding EC2 Instance Storage for Development Needs
    - Changez la **taille** du volume de **8 GiB** à **12 GiB**.
    - Cliquez sur **Modify** et confirmez les modifications.
 
-![Description de l'image]('Screenshot from 2024-08-28 16-43-10.png')
+![Description de l'image](images/'Screenshot%20from%202024-08-28%2016-43-10.png')
 
 #### **Étape 2 : Étendre la Partition et le Système de Fichiers sur l’Instance**
 
