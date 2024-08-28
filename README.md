@@ -64,7 +64,7 @@ Expanding EC2 Instance Storage for Development Needs
      ```bash
      sudo chmod 400 /root/xfusion-keypair.pem
      ```
-![Screenshot](images/ssh-client.png)
+![Screenshot](images/ssh-reflect.png)
 
 2. **SSH vers l’Instance EC2 :**
    - Depuis l’hôte `aws-client`, utilisez la commande suivante pour accéder à l’instance EC2 :
