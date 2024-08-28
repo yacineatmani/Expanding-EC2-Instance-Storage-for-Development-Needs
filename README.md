@@ -42,7 +42,7 @@ Expanding EC2 Instance Storage for Development Needs
      ```bash
      sudo growpart /dev/xvda 1
      ```
-![Description de l'image]('Screenshot from 2024-08-28 16-50-46.png')
+![Description de l'image](Screenshot from 2024-08-28 16-50-46.png)
 
 4. **Étendre le Système de Fichiers XFS :**
    - Étendez le système de fichiers XFS pour utiliser la partition étendue :
