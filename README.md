@@ -19,7 +19,7 @@ Expanding EC2 Instance Storage for Development Needs
    - Changez la **taille** du volume de **8 GiB** à **12 GiB**.
    - Cliquez sur **Modify** et confirmez les modifications.
 
-![Description de l'image](images/'Screenshot%20from%202024-08-28%2016-43-10.png')
+![Screenshot](images/ec2-instance.png)
 
 #### **Étape 2 : Étendre la Partition et le Système de Fichiers sur l’Instance**
 
@@ -42,7 +42,7 @@ Expanding EC2 Instance Storage for Development Needs
      ```bash
      sudo growpart /dev/xvda 1
      ```
-![Description de l'image](Screenshot from 2024-08-28 16-50-46.png)
+![Screenshot](images/aws-client.png)
 
 4. **Étendre le Système de Fichiers XFS :**
    - Étendez le système de fichiers XFS pour utiliser la partition étendue :
@@ -64,7 +64,7 @@ Expanding EC2 Instance Storage for Development Needs
      ```bash
      sudo chmod 400 /root/xfusion-keypair.pem
      ```
-![Description de l'image](images/'Screenshot from 2024-08-28 17-00-55.png')
+![Screenshot](images/ssh-client.png)
 
 2. **SSH vers l’Instance EC2 :**
    - Depuis l’hôte `aws-client`, utilisez la commande suivante pour accéder à l’instance EC2 :
